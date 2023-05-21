@@ -1,6 +1,7 @@
 name: Create Repo
 
 on:
+  push:
   schedule:
     - cron: '*/30 * * * *'
 
